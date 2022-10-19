@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <style>
+
+  body{
+      display: inline;
+      background-image: url("https://images.wallpaperscraft.com/image/single/abstract_blue_black_light_448_1366x768.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
+        .pre{
+            width: auto;
+            height: 10vh;
+        }
+
+
+        h1{
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            color: azure;
+            height: 80vh;
+        }
+    </style>
+    <div class="pre">
+    {%if prediction == 0%}
+       <h1>Your Personality is ENFJ</h1>
+    {%elif prediction == 1%}
+        <h1>Your Personality is ENFP</h1>
+    {%elif prediction == 2%}
+        <h1>Your Personality is ENTJ</h1>
+    {%elif prediction == 3%}
+        <h1>Your Personality is ENTP</h1>
+    {%elif prediction == 4%}
+        <h1>Your Personality is ESFJ</h1>
+    {%elif prediction == 5%}
+        <h1>Your Personality is ESFP</h1>
+    {%elif prediction == 6%}
+        <h1>Your Personality is ESTJ</h1>
+    {%elif prediction == 7%}
+        <h1>Your Personality is ESTP</h1>
+    {%elif prediction == 8%}
+        <h1>Your Personality is INFJ</h1>
+    {%elif prediction == 9%}
+        <h1>Your Personality is INFP</h1>
+    {%elif prediction == 10%}
+        <h1>Your Personality is INTJ</h1>
+    {%elif prediction == 11%}
+        <h1>Your Personality is INTP</h1>
+    {%elif prediction == 12%}
+        <h1>Your Personality is ISFJ</h1>
+    {%elif prediction == 13%}
+        <h1>Your Personality is ISFP</h1>
+    {%elif prediction == 14%}
+        <h1>Your Personality is ISTJ</h1>
+    {%elif prediction == 15%}
+        <h1>Your Personality is ISTP</h1>
+
+    {%endif%} 
+</div>
+        <br><br> 
+        
+
+
+
+</body>
+</html>

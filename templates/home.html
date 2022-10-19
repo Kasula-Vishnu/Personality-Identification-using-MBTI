@@ -1,0 +1,203 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <style>
+
+h1{
+    text-align: center;
+}
+    
+
+
+a{
+    color: #ffffff;
+}
+.main_button_typ_001 {
+    position: relative;
+    width: 329px;
+    height: 50px;
+    border: #4CAF50 solid 1px;
+    margin: 0 0 0 8px;
+    float: left;
+    background-color: #4CAF50;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main_button_typ_002 {
+    position: relative;
+    width: 329px;
+    height: 50px;
+    border: #ad4d50 solid 1px;
+    margin: 0 0 0 8px;
+    float: left;
+    background-color: #ad4d50;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    </style>
+    
+    <h1>User Authentication.</h1><br>
+
+
+
+      <div class="main_button_typ_002">
+        <div style="color:#FFFFFF; font-size:16px;  text-align:left; vertical-align:middle; position:absolute; top:16px; left: 75px;">
+            <a href="{{ url_for('register') }}">New User Register</a><br></div>
+        <div style="position:absolute;background-image: url(/AppOnlineProject/images/add-user-2-xl_30x30.png);background-repeat:no-repeat; width:40px; height:40px; left: 25px; top: 10px;"></div>
+        
+      </div><br>
+      <br>
+      <br>
+      <br>
+      <br>
+ 
+
+
+
+
+      <div class="main_button_typ_001">
+        <div style="color:#FFFFFF;font-size:16px;text-align:left;vertical-align:middle;position:absolute;top:16px;left: 75px;">
+            <a href="{{ url_for('login') }}">Existing User Login</a><br></div>
+        </div>
+        <div style="position:absolute; background-image: url(/AppOnlineProject/images/padlock-9-xxl_30x30.png);background-repeat:no-repeat; width:40px; height:40px; left: 25px; top: 10px;"></div>
+       </div>
+
+     
+
+    
+    
+
+</body>
+
+</html>
+
+ -->
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    h1{
+    text-align: center;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 15px;
+  color: white;
+  width: 100px;
+  text-align: center;
+  
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.main_button_typ_001 {
+    position: relative;
+    width: 329px;
+    height: 50px;
+    border: #4CAF50 solid 1px;
+    margin: 0 0 0 8px;
+    float: left;
+    background-color: #4CAF50;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main_button_typ_002 {
+    position: relative;
+    width: 329px;
+    height: 50px;
+    border: #ad4d50 solid 1px;
+    margin: 0 0 0 8px;
+    float: left;
+    background-color: #ad4d50;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+</style>
+</head>
+<body>
+
+    <h1>User Authentication</h1><br>
+
+    <div class="input-container">
+    <div class="main_button_typ_002">
+        <i class="fa fa-user-plus fa-lg icon"></i>
+        <div style="color:#FFFFFF; font-size:16px;  text-align:left; vertical-align:middle; position:absolute; top:16px; left: 75px;">
+            <a style = "text-decoration: none; color: #FFFFFF;" href="{{ url_for('register') }}">New User Register</a><br></div>
+        
+      </div>
+    </div>
+ 
+ 
+      <div class="input-container">
+      <div class="main_button_typ_001">
+        <i class="fa fa-key fa-lg icon"></i>
+        <div style="color:#FFFFFF;font-size:16px;text-align:left;vertical-align:middle;position:absolute;top:16px;left: 75px;">
+            <a style = "text-decoration: none; color: #FFFFFF;" href="{{ url_for('login') }}">Existing User Login</a><br></div>
+        </div>
+        <div style="position:absolute; background-image: url(/AppOnlineProject/images/padlock-9-xxl_30x30.png);background-repeat:no-repeat; width:40px; height:40px; left: 25px; top: 10px;"></div>
+       </div>
+    </div>
+
+
+
+
+</body>
+</html>

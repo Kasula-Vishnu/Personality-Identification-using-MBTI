@@ -16,4 +16,4 @@ Out of all the algorithms implemented in this project we find that BERT model ca
 
 - Develop a web application to take a new data as an input and displays the predictions as visualization.
 
-- Develop a web application to take a new data as an input and displays the predictions as visualization.
+
